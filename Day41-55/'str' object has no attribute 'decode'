@@ -1,0 +1,2 @@
+找到python文件下的django文件>db文件>backends>mysql>operations.py
+然后将代码中的query.decode改为query.encode
